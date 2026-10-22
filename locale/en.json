@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Garmin Health",
+    "description": "A Garmin Connect dashboard opened from the left panel list: heart rate, HRV, Body Battery, sleep, steps and training load. Reuses the local Garmin token and talks to Garmin directly from the plugin host."
+  }
+}

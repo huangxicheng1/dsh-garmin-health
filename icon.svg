@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Garmin Health">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#12203a"/>
+  <path d="M10 36h7l3.6-11 6.2 22 5.4-26 4.6 15h4.8l2.6-8 2.2 8H54"
+        fill="none" stroke="#4f9cf0" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="47" cy="20" r="5" fill="#3fbf7f"/>
+</svg>

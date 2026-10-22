@@ -1,0 +1,10 @@
+- insert:
+    - id: garmin-health
+      name: 'dsh-garmin-health'
+      config:
+        pollMinutes: 5
+        chinaRegion: true
+        defaultDays: 7
+        # 默认读 dsh-plugin-garmin-connect 的账号 session（Windows 可移植写法）。
+        # 如果你的 token 在 ~/.garminconnect，把这一行删掉，或改成 '~/.garminconnect'。
+        tokenPath: '%LOCALAPPDATA%/dsh-plugin-garmin-connect/accounts'

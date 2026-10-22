@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Garmin 健康",
+    "description": "在左侧面板列表里打开 Garmin Connect 看板：心率、HRV、Body Battery、睡眠、步数与训练负荷；复用本机 garmin token，服务端直连 Garmin API。"
+  }
+}
