@@ -172,6 +172,8 @@ pnpm add "D:\deepseek\Garmin\garmin-health"
 | 现象 | 处理 |
 |---|---|
 | 「需要重新登录 Garmin」 | 终端运行 `garmin-mcp-auth --force-reauth`，再点刷新 |
+| 「找不到 Garmin token 文件」且提示试过多个路径 | 配置的目录里没有文件，也没有可回退的 `~/.garminconnect`；登录任一认证链后刷新 |
+| 顶部提示「正在用备用 token」 | 配置的 token 目录是空的，已自动回退到 `~/.garminconnect`。要恢复原账号，重新登录对应插件（它会重建 session），或清空设置里的 Token 文件 |
 | 提示账号属于中国区 | 设置里打开「Garmin 中国区账号」，或重新登录 |
 | 「已连接，但账号里还没有数据」 | 该 token 对应账号在 Garmin 侧没有已同步设备；在手机 Garmin Connect 同步，或对真正有数据的账号重新登录 |
 | 面板里 401 | 刷新页面重新建立浏览器会话 |
